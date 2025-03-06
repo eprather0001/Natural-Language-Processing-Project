@@ -36,8 +36,9 @@ Record a short video of your project to display here on your README. You can do 
 
 ## Project Description
 
-Write a description of the goal and/or problem that your application. Include descriptions of what text is being analyzed, either if its text files you are using to interpret text an how the user interacts with your project.
+In the Lorax Word Finder project, I wanted to create an application that allows the user to input a specific word to find the amount of times it shows up in the Lorax script. The text that is being analyzed is the Lorax script which I added as a text file. With the text file implemented, the application will go through each line of the script and break it up into individual words. With the individual words, there is a countWords method that finds the amount of times the specific word appears in the script using the words ArrayList. The Scanner method allows for user input that takes the users prompt word, counts how many time it appears throughout the whole script, and continues until the word "goodbye" is used, indicating the end of the program. 
 
 ## NLP Techniques
 
-Write a description of what natural lanugage technique (NLP) you implemented in your project. State which methods in your project are associated with this, and a brief explanation of how those methods word and how they are necessary in the NLP technique. 
+The NLP that I implemented in my project is the keyword extraction. Iterating over the word list, the countWords method determines whether each word matches the input word from the user. Then, it counts how many times the word appears in the script and returns the number. This is necessary in the NLP technique because it's a great method that can reveal the most common terms or words in texts. This NLP technique allows users to find the frequency of a word/ term/ information that they need.
+
