@@ -32,7 +32,7 @@ Record a short video of your project to display here on your README. You can do 
 - Use the following markdown code:
 
 [![Thumbnail for my projet](https://github.com/user-attachments/assets/4f2cce6c-9023-4a3f-a10c-510ae136ba6d)
-)]([youtube-URL-here](https://www.youtube.com/watch?v=JR2DgNNK_0A)
+)](https://www.youtube.com/watch?v=JR2DgNNK_0A)
 
 ## Project Description
 
